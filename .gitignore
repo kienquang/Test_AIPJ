@@ -1,0 +1,10 @@
+# Bỏ qua môi trường ảo
+.venv/
+env/
+
+# Bỏ qua các file rác của Python
+__pycache__/
+*.pyc
+
+# Bỏ qua dữ liệu lớn (nếu bạn có)
+data/
