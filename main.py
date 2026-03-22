@@ -109,7 +109,7 @@ training_args = TrainingArguments(
     per_device_eval_batch_size=BATCH_SIZE,
     num_train_epochs=EPOCHS,
     weight_decay=0.01,
-    evaluation_strategy="epoch",     # Đánh giá model sau mỗi epoch
+    eval_strategy="epoch",    # Đánh giá model sau mỗi epoch
     logging_dir='./logs',            # Thư mục lưu log
     logging_steps=10,
     # Chỉ dùng CPU nếu đang ở local để tránh lỗi nếu máy không cài CUDA
